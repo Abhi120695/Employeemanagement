@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item android:title="Datamanager"
+          android:id="@+id/data_manager"
+        android:icon="@drawable/database"
+
+        />
+    <item android:title="Settings"
+          android:id="@+id/Settings"
+          android:icon="@drawable/cogwheel"
+
+          />
+    <item android:title="About"
+          android:id="@+id/About"
+          android:icon="@drawable/about"
+
+          />
+</group>
+
+
+</menu>

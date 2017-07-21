@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1036840097011",
+    "firebase_url": "https://employeemanagement2.firebaseio.com",
+    "project_id": "employeemanagement2",
+    "storage_bucket": "employeemanagement2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036840097011:android:ed4800d62e4f975a",
+        "android_client_info": {
+          "package_name": "com.au.employeemanagement2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036840097011-cv98375mom9i7g684fftpnq1rkqqhpas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR-ft868FyahB9EnUTCYJE1K9Fq6rIke8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036840097011-cv98375mom9i7g684fftpnq1rkqqhpas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

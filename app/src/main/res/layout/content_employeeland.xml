@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.au.employeemanagement2.Employeeland"
+    tools:showIn="@layout/activity_employeeland"
+    android:background="@drawable/finalback">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button100"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button5"
+        android:text="Check Attendence"
+        android:background="#803261AC"
+        android:textColor="#ffff"
+        android:onClick="Viewattendence"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button100"
+        android:text="Change password"
+        android:background="#803261AC"
+        android:textColor="#ffff"
+        android:onClick="changepass"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:background="#33C0C2CD"
+        android:textColorHint="@color/white"
+        android:hint="Confirm Your  Password"
+        android:layout_below="@+id/button100"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:inputType="textPassword"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/progressBar4"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/button105"
+        android:text="Logout"
+        android:background="#803261AC"
+        android:textColor="#ffff"
+        android:onClick="Logout"
+        android:layout_alignBottom="@+id/progressBar4"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText"
+        android:background="#33C0C2CD"
+        android:textColorHint="@color/white"
+        android:hint="Enter Your new Password"
+        android:layout_marginBottom="27dp"
+        android:visibility="invisible"
+        android:inputType="textPassword"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:text="cancel"
+        android:background="#803261AC"
+        android:textColor="#ffff"
+        android:onClick="cancel"
+
+        android:visibility="invisible"
+        android:layout_below="@+id/button5"
+        android:layout_toStartOf="@+id/progressBar4"
+        android:layout_marginEnd="11dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:text="Confirm"
+        android:background="#803261AC"
+        android:textColor="#ffff"
+        android:onClick="confirm"
+
+        android:visibility="invisible"
+        android:layout_below="@+id/button5"
+        android:layout_toEndOf="@+id/progressBar4"
+        android:layout_marginStart="12dp"/>
+</RelativeLayout>
